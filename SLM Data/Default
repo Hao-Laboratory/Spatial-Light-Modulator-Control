@@ -1,0 +1,952 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>18.0</Version>
+<Array>
+<Name>Holo Array Out</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Holo 1 Settings Out</Name>
+<NumElts>9</NumElts>
+<Boolean>
+<Name>Holo On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Scan</Name>
+<Val>0</Val>
+</Boolean>
+<I16>
+<Name>X</Name>
+<Val>-284</Val>
+</I16>
+<I16>
+<Name>Y</Name>
+<Val>0</Val>
+</I16>
+<Array>
+<Name>Zernike Polynominals</Name>
+<Dimsize>36</Dimsize>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Piston</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Tip</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Tilt</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>-7.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Defocus</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Astigm (z5)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Astigm (z6)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Coma(z7)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Coma(z8)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Trefoil(z9)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Trefoil(z10)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Spherical(z11)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>12</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>13</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>14</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>15</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>16</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>17</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>18</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>19</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>20</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>21</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>22</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>23</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>24</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>25</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>26</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>27</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>28</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>29</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>30</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>31</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>32</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>33</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>34</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>35</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>36</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<Boolean>
+<Name>Top Hat</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Vortex</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Clockwise</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Custom</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Holo 1 Settings Out</Name>
+<NumElts>9</NumElts>
+<Boolean>
+<Name>Holo On</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Scan</Name>
+<Val>0</Val>
+</Boolean>
+<I16>
+<Name>X</Name>
+<Val>284</Val>
+</I16>
+<I16>
+<Name>Y</Name>
+<Val>0</Val>
+</I16>
+<Array>
+<Name>Zernike Polynominals</Name>
+<Dimsize>36</Dimsize>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Piston</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Tip</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Tilt</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>7.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Defocus</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Astigm (z5)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Astigm (z6)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Coma(z7)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Coma(z8)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Trefoil(z9)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Trefoil(z10)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>Spherical(z11)</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>12</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>13</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>14</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>15</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>16</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>17</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>18</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>19</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>20</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>21</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>22</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>23</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>24</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>25</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>26</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>27</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>28</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>29</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>30</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>31</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>32</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>33</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>34</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>35</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Zernike Polynominals</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Aberration Name</Name>
+<Val>36</Val>
+</String>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<Boolean>
+<Name>Top Hat</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Vortex</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Clockwise</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Custom</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Array>
+</LVData>

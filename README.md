@@ -1,6 +1,6 @@
 # Spatial Light Modulator Control
 
-One Paragraph of project description goes here
+This project is to control the spatial light modulator (SLM) by loading proper gray-scale image. Although tested only on Hamamatsu and Holoeye SLMs, this project is theoretically compatible with all SLMs as long as they can be recognized as an extra monitor by your computer.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-To run this program, NI LabVIEW 2018 or later is needed. In addtion, Vision Development Module is essential. The instructions on how to install LabVIEW can be found on National Instrument's website:
+To run this program, National Instrument LabVIEW 2018 or later is needed. In addtion, Vision Development Module is essential. The instructions on how to install LabVIEW can be found on NI's website:
 (http://www.ni.com/pdf/manuals/375842f.pdf). 
 
 ### Installation
@@ -17,48 +17,40 @@ This program is portable and hardware-free. No installation is required. Copy or
 
 ## Running the program
 
-Double-click the 
+Depending on your hardware, you may have to redefine a few constants (e.g., resolution of SLM) to obtain the expected results before running the program. All these settings can be found in "SLM Constant.vi".
 
-### Break down into end to end tests
+To date, this project only supports one SLM. Assuming that you have multiple SLMs connected to your computer and want to make a switch, you have to quit the program first and modify the "monitor count" in "SLM Constant.vi". The exact sequence number of each SLM can be found in your "Control Panel" of you Windows OS.
 
-Explain what these tests test and why
+![main UI](Figures/mainUI.png)
 
-```
-Give an example
-```
+Double-click the file "SLM Control.vi" to enter the program. All functions are accessable from the main UI (see figure below). The program can define two holograms on the SLM in total, but you may opt to use only one by clicking either "Holo On" button on the top left of the main UI.
 
-### And coding style tests
+You can manipulate the wavefront of the incident beam by adding your pattern onto the hologram. These patterns are defined using Zernike Polynominals. Alternatively, you can add specific pattern by clicking the buttons like "vortex", "tophat" underneath the Zernike Polynominal list. You may also add the pattern defined by yourself by clicking the "custom" button. To change the user defined pattern, modify "/SLM VIs/Custom.vi" as needed.
 
-Explain what these tests test and why
+The bottom-right control panel is used to control the pattern outside the hologram region. You may add gradient, change the hologram size, enable/disable the flat map here.
 
-```
-Give an example
-```
+All setting can be saved for further use by clicking the "save" button. Then you may recall all saved parameters by clicking the "load" button.
 
-## Deployment
+For the basic knowledge regarding the SLM or adaptive optics, you may refer to:
+ "https://en.wikipedia.org/wiki/Spatial_light_modulator".
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Versioning
 
 * v4.0 current version
-Major update: 1. gray scale of flat map is corrected.
-              2. 
+Major update: 
+    1. gray scale of flat map is corrected.
+    2. An "SLM Constant.vi" is created to enable the users to customize the control based on their own hardware setting. 
+    3. other debugs for better performances.
 
 
 ## Authors
 
-* **Xiang Hao** from the Hao Laboratory (https://github.com/Hao-Laboratory) at Zhejiang University, China.
+* **Xiang Hao** from the Hao Laboratory (https://github.com/Hao-Laboratory) at Zhejiang University, China. Email: haox@zju.edu.cn
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
